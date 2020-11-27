@@ -9,16 +9,16 @@ var survival_time = 0;
 var gl_debug = false;
 
 function preload(){
-  monkey_running = loadAnimation("images/sprite_0.png", "images/sprite_1.png",
-                                 "images/sprite_2.png", "images/sprite_3.png",
-                                 "images/sprite_4.png", "images/sprite_5.png",
-                                 "images/sprite_6.png", "images/sprite_7.png",
-                                 "images/sprite_8.png");
+  monkey_running = loadAnimation("sprite_0.png", "sprite_1.png",
+                                 "sprite_2.png", "sprite_3.png",
+                                 "sprite_4.png", "sprite_5.png",
+                                 "sprite_6.png", "sprite_7.png",
+                                 "sprite_8.png");
   monkey_running.frameDelay = 1.5
 
-  banana_image = loadImage("images/banana.png");
-  obstacle_image = loadImage("images/obstacle.png");
-  ground_image = loadImage("images/jungle_ground_3.png");
+  banana_image = loadImage("banana.png");
+  obstacle_image = loadImage("obstacle.png");
+  ground_image = loadImage("jungle_ground_3.png");
 }
 
 function setup() {
